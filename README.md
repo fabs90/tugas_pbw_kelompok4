@@ -6,8 +6,8 @@
 
 ## Our team
 
-- [afrel]
-- [fabian]
-- [gabriel]
-- [hanif]
-- [sugesti]
+- afrel
+- fabian
+- gabriel
+- hanif
+- sugesti
