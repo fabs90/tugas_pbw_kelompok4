@@ -527,8 +527,14 @@ section {
     resize: none;
 }
 
+.stars_dropdown {
+    font-size: 18px; /* Adjust the value according to your preference */
+}
 
-
+/* Optional: To make the options inside the select larger as well */
+.stars_dropdown option {
+    font-size: 16px; /* Adjust the value according to your preference */
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 991px) {
