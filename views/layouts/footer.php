@@ -14,7 +14,7 @@
             <h3>contact info</h3>
             <a href="#"><i class="fas fa-phone"></i> +021-345-6789</a>
             <a href="#"><i class="fas fa-phone"></i> +021-122-4455</a>
-            <a href="#"><i class="fas fa-envelope"></i> manftra.coffee@gmail.com</a>
+            <a href="#"><i class="fas fa-envelope"></i> mantra.coffee@gmail.com</a>
             <a href="#"><i class="fas fa-envelope"></i> Indonesia, Bekasi</a>
         </div>
 
@@ -22,7 +22,7 @@
             <h3>contact info</h3>
             <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
             <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://instagram.com/mantrakopi_"><i class="fab fa-instagram"></i> instagram</a>
             <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
         </div>
     </div>

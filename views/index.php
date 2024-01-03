@@ -7,8 +7,7 @@ include './layouts/header.php';
 <section class="home" id="home">
     <div class="row">
         <div class="content">
-            <h3>fresh coffee in the morning</h3>
-            <a href="#" class="btn">buy one now</a>
+            <h3>Daily brewed coffee</h3>
         </div>
 
         <div class="image">
@@ -25,22 +24,22 @@ include './layouts/header.php';
 
 <!-- ABOUT -->
 <section class="about" id="about">
-    <h1 class="heading">about us <span>why choose us</span></h1>
+    <h1 class="heading">About<span>Why Choose Us</span></h1>
 
     <div class="row">
         <div class="image">
-            <img src="../image/about-img.png" alt="" />
+            <img src="../image/barista.png" alt="" />
         </div>
 
         <div class="content">
-            <h3 class="title">what's make our coffee special!</h3>
+            <h3 class="title">What makes us special?</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum
-                laboriosam reprehenderit ipsa id repellat odio illum, voluptas,
-                necessitatibus assumenda adipisci. Hic, maiores iste? Excepturi illo
-                dolore mollitia qui quia.
+                Mantra Kopi stands out as the go-to place for coffee lovers seeking a distinctive and genuine coffee
+                brewing experience. With its inviting and warm ambiance, the shop features an appealing interior design
+                and provides comfortable seating for customers to relax and savor their coffee. In essence, Mantra Kopi
+                serves as an ideal destination for coffee enthusiasts looking for an authentic experience, top-notch
+                coffee beans, and flawless coffee service.
             </p>
-            <a href="#" class="btn">read more</a>
             <div class="icons-container">
                 <div class="icons">
                     <img src="../image/about-icon-1.png" alt="" />
@@ -48,7 +47,7 @@ include './layouts/header.php';
                 </div>
                 <div class="icons">
                     <img src="../image/about-icon-2.png" alt="" />
-                    <h3>our branches</h3>
+                    <h3>cozy place</h3>
                 </div>
                 <div class="icons">
                     <img src="../image/about-icon-3.png" alt="" />
@@ -61,78 +60,72 @@ include './layouts/header.php';
 
 <!-- MENU -->
 <section class="menu" id="menu">
-    <h1 class="heading">our menu <span>popular menu</span></h1>
+    <h1 class="heading">Our Menu<span>Popular Ones</span></h1>
 
     <div class="box-container">
         <a href="#" class="box">
             <img src="../image/menu-1.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Caramel Machiato</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-                    sed.
+                    <i>Caramel sauce, sugar, fresh milk, sugar.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp25.000,00 </span>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="../image/menu-2.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Tart Choco</h3>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                    fugit.
+                    <i>Chocolate powder, condensed milk, rum, fresh milk.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp20.000,00</span>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="../image/menu-3.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Lychee Yakult</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus, recusandae.
+                    <i>Lychee syrup, yakult, mineral water.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp23.000,00</span>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="../image/menu-4.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Sweetness</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
-                    quas.
+                    <i>Strawberry sauce, fresh milk, sugar.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp23.000,00</span>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="../image/menu-5.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Americano</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                    vitae.
+                    <i>Espresso, hot water, sugar.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp15.000,00</span>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="../image/menu-6.png" alt="" />
             <div class="content">
-                <h3>our special coffee</h3>
+                <h3>Es Kopi Susu</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde,
-                    expedita!
+                    <i>Brown sugar, fresh milk, espresso.</i>
                 </p>
-                <span>$8.99</span>
+                <span>Rp23.000,00</span>
             </div>
         </a>
     </div>
@@ -140,7 +133,7 @@ include './layouts/header.php';
 
 <!-- REVIEW -->
 <section class="review" id="review">
-    <h1 class="heading">reviews <span>what people says</span></h1>
+    <h1 class="heading">Review<span>What They Said</span></h1>
     <div class="swiper review-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide box">
@@ -154,9 +147,10 @@ include './layouts/header.php';
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>kopinya enak.</p>
-                <h3>afrel aesaizaa</h3>
-                <span>satisfied client</span>
+                <p>kopinya creamy dan cocok untuk diminum di semua kalangan,tempat nya juga sangat nyaman untuk
+                    meeting,kerja kelompok dll.</p>
+                <h3>Afrel Aesaizaa</h3>
+                <span>Satisfied Client</span>
             </div>
 
             <div class="swiper-slide box">
@@ -170,9 +164,9 @@ include './layouts/header.php';
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>kopinya enak.</p>
-                <h3>fabian juliansyah</h3>
-                <span>satisfied client</span>
+                <p>Mantep bgtt euy, gaada lawan dahh🔥🔥🔥.</p>
+                <h3>Fabian Juliansyah</h3>
+                <span>Satisfied Client</span>
             </div>
 
             <div class="swiper-slide box">
@@ -186,9 +180,9 @@ include './layouts/header.php';
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>kopinya enak.</p>
-                <h3>gabrielind yeofita</h3>
-                <span>satisfied client</span>
+                <p>Kren.</p>
+                <h3>Gabrielind Yoefita</h3>
+                <span>Satisfied Client</span>
             </div>
 
             <div class="swiper-slide box">
@@ -202,9 +196,9 @@ include './layouts/header.php';
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>kopinya enak.</p>
-                <h3>hanif nurfauzi</h3>
-                <span>satisfied client</span>
+                <p>Tempat nyaman membuat pengunjung semakin betah, juga minumannya terasa sangat mewah.</p>
+                <h3>Hanif Nurfauzi</h3>
+                <span>Satisfied Client</span>
             </div>
 
             <div class="swiper-slide box">
@@ -218,61 +212,49 @@ include './layouts/header.php';
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>kopinya enak.</p>
-                <h3>sugesti pangestuti</h3>
-                <span>satisfied client</span>
+                <p>Rasa kopi sangat otentik.</p>
+                <h3>Sugesti Pangestuti</h3>
+                <span>Satisfied Client</span>
             </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
-    <a href="add_rating.php" class="writeReview">Write Review Here!</a>
+    <a href="add_rating.php" class="writeReview">Write Your Review Here!</a>
 </section>
-
-<!-- BOOK -->
-<section class="book" id="book">
-    <h1 class="heading">booking <span>reserve a table</span></h1>
-
-    <form action="">
-        <input type="text" placeholder="Name" class="box" />
-        <input type="email" placeholder="Email" class="box" />
-        <input type="number" placeholder="Number" class="box" />
-        <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn" />
-    </form>
-</section>
-
 
 <!-- FOOTER -->
-<section class="footer">
+<section class="footer" id="footer">
     <div class="box-container">
         <div class="box">
-            <h3>quick links</h3>
-            <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
-            <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
-            <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
-            <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
-            <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+            <h3>Quick Links</h3>
+            <a href="#home"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#about"><i class="fas fa-arrow-right"></i>About</a>
+            <a href="#menu"><i class="fas fa-arrow-right"></i>Menu</a>
+            <a href="#review"><i class="fas fa-arrow-right"></i>Review</a>
+            <a href="./add_rating.php"><i class="fas fa-arrow-right"></i>Add Review</a>
         </div>
 
         <div class="box">
-            <h3>contact info</h3>
-            <a href="#"><i class="fas fa-phone"></i> +021-345-6789</a>
-            <a href="#"><i class="fas fa-phone"></i> +021-122-4455</a>
-            <a href="#"><i class="fas fa-envelope"></i> manftra.coffee@gmail.com</a>
-            <a href="#"><i class="fas fa-envelope"></i> Indonesia, Bekasi</a>
+            <h3>Contact Info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+62 812-8757-7302</a>
+            <a href="#"><i class="fas fa-envelope"></i>mantrakopi@gmail.com</a>
+            <a href="#"><i class="fas fa-envelope"></i>Bekasi, Indonesia</a>
         </div>
 
         <div class="box">
-            <h3>contact info</h3>
-            <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            <h3>Social Media</h3>
+            <a href="https://instagram.com/mantrakopi_" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://instagram.com/afrelae" target="_blank"><i class="fab fa-instagram"></i>Coffee Shop's
+                Owner</a>
+            <a href="https://instagram.com/fabianjc.jpeg" target="_blank"><i class="fab fa-instagram"></i>Fabian</a>
+            <a href="https://instagram.com/a.bels" target="_blank"><i class="fab fa-instagram"></i>Belek</a>
+            <a href="https://instagram.com/nip_oji" target="_blank"><i class="fab fa-instagram"></i>Hanif</a>
+            <a href="https://instagram.com/sugest.pngstt" target="_blank"><i class="fab fa-instagram"></i>Gesti</a>
         </div>
     </div>
 
     <div class="credit">
-        created by <span>kelompok 5</span> | all rights reserved
+        Created by <span>Kelompok 5</span> | All Rights Reserved
     </div>
 </section>
 

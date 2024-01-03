@@ -31,12 +31,9 @@
         </a>
 
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#review">review</a>
-            <a href="#book">book</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
         </nav>
-
-        <a href="#" class="btn">book a table</a>
     </header>

@@ -71,7 +71,7 @@ require '../controller/UserReviewController.php';
                     </div>
                     <textarea name="message" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
                     <span class="fileUpload">Profile Image (optional)</span>
-                    <input type="file" class="box" name="imageFileUpload" id="imageFileUpload" />
+                    <input type="file" class="box" name="image" id="imageFileUpload" />
                     <input type="submit" value="send review" class="btn" name="ratingButton">
                 </form>
 
