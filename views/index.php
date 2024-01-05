@@ -1,5 +1,6 @@
 <!-- HEADER -->
 <?php
+require_once '../controller/UserReviewController.php';
 include './layouts/header.php';
 ?>
 
@@ -136,6 +137,51 @@ include './layouts/header.php';
     <h1 class="heading">Review<span>What They Said</span></h1>
     <div class="swiper review-slider">
         <div class="swiper-wrapper">
+            <?php
+$obj1 = new UserReviewController();
+$result1 = $obj1->index();
+foreach ($result1 as $key):
+?>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="../storage/<?=$key['image']?>" . alt="profileIcon" />
+                <div class="stars">
+                    <?php
+switch ($key['star_rating']) {
+    case 5:
+        for ($i = 0; $i < 5; $i++) {
+            echo '<i class="fas fa-star"></i>';
+        }
+        break;
+    case 4:
+        for ($i = 0; $i < 4; $i++) {
+            echo '<i class="fas fa-star"></i>';
+        }
+        break;
+    case 3:
+        for ($i = 0; $i < 3; $i++) {
+            echo '<i class="fas fa-star"></i>';
+        }
+        break;
+    case 2:
+        for ($i = 0; $i < 2; $i++) {
+            echo '<i class="fas fa-star"></i>';
+        }
+        break;
+    default:
+        echo '<i class="fas fa-star"></i>';
+}
+?>
+                </div>
+                <p><?=$key['messages']?></p>
+                <h3><?=$key["name"]?></h3>
+                <span>Satisfied Client</span>
+            </div>
+            <?php
+endforeach;
+?>
+
             <div class="swiper-slide box">
                 <i class="fas fa-quote-left"></i>
                 <i class="fas fa-quote-right"></i>
@@ -156,7 +202,7 @@ include './layouts/header.php';
             <div class="swiper-slide box">
                 <i class="fas fa-quote-left"></i>
                 <i class="fas fa-quote-right"></i>
-                <img src="../image/pic-2.png" alt="" />
+                <img src="../storage/shironeko.jpeg" alt="" />
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>

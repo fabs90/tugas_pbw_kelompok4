@@ -1,6 +1,5 @@
 <?php
 require '../function.php';
-require '../controller/UserReviewController.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -56,11 +55,25 @@ require '../controller/UserReviewController.php';
                     Your review will be shown on the landing page.
                 </p>
                 <form action="" method="post" enctype="multipart/form-data">
-                    <input type="text" placeholder="Name" name="name" class="box" />
-                    <input type="email" placeholder="Email" class="box" name="email" />
+                    <?php if (!empty($success)): ?>
+                    <ul>
+                        <?php foreach ($success as $item): ?>
+                        <li><?=$item?></li>
+                        <?php endforeach;?>
+                    </ul>
+                    <?php endif;?>
+                    <?php if (!empty($errors)): ?>
+                    <ul>
+                        <?php foreach ($errors as $error): ?>
+                        <li><?=$error?></li>
+                        <?php endforeach;?>
+                    </ul>
+                    <?php endif;?>
+                    <input type="text" placeholder="Name (min 3)" name="name" class="box" required />
+                    <input type="email" placeholder="Email" class="box" name="email" required />
                     <div class="stars_div">
                         <span for="star" class="stars_dropdown fileUpload">Choose Stars:</span>
-                        <select name="star" id="star">
+                        <select name="star_rating" id="star" required>
                             <option value="0">----</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -69,9 +82,10 @@ require '../controller/UserReviewController.php';
                             <option value="5">5</option>
                         </select>
                     </div>
-                    <textarea name="message" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
-                    <span class="fileUpload">Profile Image (optional)</span>
-                    <input type="file" class="box" name="image" id="imageFileUpload" />
+                    <textarea name="message" placeholder="Message" class="box" id="" cols="30" rows="10"
+                        required></textarea>
+                    <span class="fileUpload">Profile Image (optional) & max sixe 8mb </span>
+                    <input type="file" class="box" name="image" id="imageFileUpload" required />
                     <input type="submit" value="send review" class="btn" name="ratingButton">
                 </form>
 
